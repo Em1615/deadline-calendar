@@ -12,11 +12,14 @@
   cursor: pointer;
   font-size: 0.9rem;
   transition: all 0.2s;
+  font-weight: 600;
 }
 .filterButton:hover {
   background: #dbeafe;
+  transform: translateY(-1px);
 }
 .active {
   background: #3b82f6;
   color: white;
+  border-color: #3b82f6;
 }

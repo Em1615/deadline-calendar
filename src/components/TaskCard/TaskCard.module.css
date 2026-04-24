@@ -1,0 +1,51 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.overdue {
+  background: #fee2e2;
+  border-left: 5px solid #ef4444;
+}
+.content {
+  flex: 1;
+}
+.name {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+}
+.deadline {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+.badge {
+  background: #ef4444;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+.deleteButton {
+  background: #6b7280;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.deleteButton:hover {
+  background: #ef4444;
+}
